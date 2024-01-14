@@ -1,7 +1,7 @@
 import React from "react"
 import "./About.css"
-import image1 from "../../assets/Mario and Adrian A.jpg"
-import image2 from "../../assets/Mario and Adrian b.jpg"
+import image1 from "../../assets/lemon dessert.jpg"
+import image2 from "../../assets/lemon dessert.jpg"
 
 const aboutData = {
   title: "Little Lemon",

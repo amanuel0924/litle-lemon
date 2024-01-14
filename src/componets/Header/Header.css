@@ -1,4 +1,4 @@
-header{
+.header{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,8 +37,9 @@ header{
     border-radius: 50px;
 
 }
-p{
+.header p{
     width: 300px;
+    color:white;
 }
 @media screen and (max-width: 768px) {
     .header_container{
