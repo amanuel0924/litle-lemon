@@ -1,0 +1,82 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    width: auto;
+  
+  }
+  
+  .logo {
+    font-size: 1.5em;
+  }
+  
+  .menu-icon {
+    display: none;
+    font-size: 1.5em;
+    cursor: pointer;
+  }
+  
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+
+  }
+  
+  .nav-list li {
+    margin-right: 20px;
+  }
+  
+  .nav-list a {
+    text-decoration: none;
+    color: #495E57;
+    font-weight: 600;
+    padding: 10px;
+
+  }
+  .menu-icon.cross {
+    /* Add styles for the cross icon */
+    font-size: 1.5em;
+    line-height: 1;
+  }
+  .nav-list a:hover{
+    background-color: #495E57;
+    color: white;
+    border-radius: 10px;
+  }
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .menu-icon {
+      display: block;
+    }
+    .navbar{
+        justify-content: space-between;
+       
+     
+    }
+    .nav-list {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 38px;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+      background-color: white;
+    }
+  
+    .nav-list.show {
+      display: flex;
+      
+    }
+  
+    .nav-list li {
+      margin-right: 0;
+      margin-bottom: 10px;
+    }
+  }
