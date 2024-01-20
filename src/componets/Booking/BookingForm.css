@@ -30,3 +30,8 @@
 .btn_submit:hover{
     background-color: #44796b;
 }
+.errors{
+    color: red;
+    display: block;
+    font-size: 14px;
+}

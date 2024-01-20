@@ -19,7 +19,7 @@ const Header = () => {
             </p>
           </div>
           <Link to="/booking">
-            <Button Lable="Reserve Table" />
+            <Button Lable="Reserve Table" aria-label="On Click" />
           </Link>
         </div>
         <div className="img_container">
