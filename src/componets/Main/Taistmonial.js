@@ -27,7 +27,7 @@ const reviews = [
 
 const ReviewCard = ({ props }) => {
   return (
-    <div className="app__testimonials-review">
+    <div className="app__testimonials-review" key={props.key}>
       <div className="app__testimonials-stars">
         <AiFillStar className="app__testimonials-review-stars-icon" />
         <AiFillStar className="app__testimonials-review-stars-icon" />
@@ -53,8 +53,8 @@ const Testimonials = () => {
       <h1 className="app__testimonals-title">Testimonials</h1>
       {/* <ReviewCard /> */}
       <div className="app__testimonial-review-card">
-        {reviews.map((review) => {
-          return <ReviewCard props={review} />
+        {reviews.map((review, index) => {
+          return <ReviewCard props={review} key={index} />
         })}
       </div>
     </div>

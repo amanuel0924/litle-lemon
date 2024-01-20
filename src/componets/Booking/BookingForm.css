@@ -1,0 +1,32 @@
+.boooking_form{
+    width: 900px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.input_containers{
+    padding: 15px;
+    font-weight: 500;
+}
+.input_containers label{
+    font-size: 18px;
+}
+.input_containers input{
+    outline: none;
+    padding: 5px;
+    font-size: 14px;
+}
+.btn_submit{
+    text-align: center;
+    background-color: #4b635d;
+    color: rgb(255, 255, 255);
+    padding: 15px 25px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+.btn_submit:hover{
+    background-color: #44796b;
+}

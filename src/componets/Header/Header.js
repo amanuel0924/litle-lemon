@@ -2,6 +2,7 @@ import React from "react"
 import Button from "../Button/Button"
 import Hederimg from "./../../assets/restauranfood.jpg"
 import "./Header.css"
+import { Link } from "react-router-dom"
 
 const Header = () => {
   return (
@@ -17,7 +18,9 @@ const Header = () => {
               should go in it
             </p>
           </div>
-          <Button Lable="Reserve Table" />
+          <Link to="/booking">
+            <Button Lable="Reserve Table" />
+          </Link>
         </div>
         <div className="img_container">
           <img className="heder_img" src={Hederimg} alt="Hederimage" />
